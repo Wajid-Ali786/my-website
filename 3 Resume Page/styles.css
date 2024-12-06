@@ -1,0 +1,322 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #013D3D;
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #f3f3f3; /* Gold */
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #009c12, #006b9b);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #000;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007BFF;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Social Icons */
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff0d00;
+}
+
+
+h1, h3 {
+  text-align: center;
+  color: #F3C13A; /* Gold for titles */
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 100px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #0f4b5f, #3a6b84);
+  color: white;
+  padding: 40px;
+  flex-wrap: wrap; /* Allows responsiveness */
+}
+
+.hero-image {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  color: #b2ebf2;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffd700; /* Gold hover effect */
+}
+
+.social-links i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin: 0 auto 20px auto;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-links a {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Profile Section */
+.profile {
+  padding: 50px 20px;
+  text-align: center;
+  background: #1f1f1f;
+}
+
+/* Skills Section */
+.skills {
+  padding: 50px 20px;
+  background: #0c0c0c;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 15px;
+}
+
+.skill-bar {
+  background-color: #009c12;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Work History Section */
+.work-history {
+  padding: 50px 20px;
+  background: #1f1f1f;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #110e0e;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #110E0E;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1.2em;
+}
+
+.footer i {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: white;
+}
+
+.footer i:hover {
+  color: #00ff1a;
+}
+
+/* Container Styling */
+.container {
+  padding: 30px;
+  margin: auto;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  border-radius: 12px;
+  max-width: 1200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Title */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #ffdd57;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}
+
+/* Row Styling */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+/* Column Styling */
+.column {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.column:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li,
+.column p {
+  font-size: 16px;
+  color: #f1f1f1;
+  margin: 10px 0;
+}
+
+/* Icons */
+.column strong i {
+  margin-right: 8px;
+  color: #ffdd57;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Optional: Import FontAwesome for Icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
